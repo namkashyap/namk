@@ -1,0 +1,107 @@
+ARITHMETIC OPERATIONS-
+
+>>> a=12
+>>> b=12
+>>> c=a+b
+>>> print(c)
+24
+>>> a=15
+>>> b=10
+>>> c=a-b
+>>> print(c)
+5
+>>> a=20
+>>> b=15
+>>> c=a/b
+>>> print(c)
+1
+>>> a=45
+>>> b=30
+>>> c=a%b
+>>> print(c)
+15
+>>> a=15
+>>> b=10
+>>> c=a//b 
+>>> print(c)
+1
+>>> a=12
+>>> b=5
+>>> c=a>b
+>>> print(c)
+True
+>>> a=12
+>>> b=5
+>>> c=a<b
+>>> print(c)
+False
+>>> a=12
+>>> b=16
+>>> c=a>=b
+>>> print(c)
+False
+>>> a=12
+>>> b=16
+>>> c=b>=a
+>>> print(c)
+True
+>>> >>> a=12
+>>> b=14
+>>> c=a<b
+>>> print(c)
+True
+>>> a=12
+>>> b=14
+>>> c=b<a
+>>> print(c)
+False
+>>> a=12
+>>> b=14
+>>> c=a<=b
+>>> print(c)
+True
+>>> a=12
+>>> b=14
+>>> c=b<=a
+>>> print(c)
+False
+>>> 
+>>> a=12
+>>> b=20
+>>> c=a!=b
+>>> print(c)
+True
+>>> a=12
+>>> b=20
+>>> c=b!=a
+>>> print(c)
+True
+>>> 
+a=10
+b=5
+IF STATEMENTS-
+if a>b:
+	print("a is greater than b")
+else:
+	print("b is greater than a")
+EVEN AND ODD NUMBERS-
+a=10
+b=10
+if a=1:
+	print("a is odd number")
+else:
+	print("b is an odd number")
+GREATER THAN-
+a=int(input("enter value of a"))
+b=int(input("enter value of b"))
+if a>b:
+	print(a,"is greater than",b)
+else:
+	print(b,"is greater than",a)
+POSITIVE-
+a=5
+b=4
+if a<0:
+	print("is a positive number")
+else:
+	print("is a negative number")

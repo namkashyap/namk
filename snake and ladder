@@ -1,0 +1,149 @@
+import random
+print("snake and ladder game")
+count=0
+while(count<=100):
+		a=input("enter r to roll the dice")
+		if(a=="r"):
+			r=random.randint(1,6)
+			print("r value is",r)
+			count=count+r
+			print("score is",count)
+			if(count==100):
+			 	print("you won")
+			 	print("your score is",count)
+			elif(count==8):
+				 count=37
+				 print("u climb up the ladder")
+			elif(count==11):
+		    	 count=2
+		    	 print("you have a snake bite")
+			elif(count==13):
+		    	 count=34
+		    	 print("you climb up the ladder")
+			elif(count==38):
+		    	 count=9
+		    	 print("you have a snake bite")
+			elif(count==25):
+		    	 count=4
+		    	 print("you have a snake bite")
+			elif(count==40):
+		    	 count=68
+		    	 print("you climb up the ladder")
+			elif(count==65):
+				 count=46
+				 print("you have a snake bite")
+			elif(count==52):
+				 count=81
+				 print("you climb up the ladder")
+			elif(count==89):
+			     count=70
+			     print("you have a snake bite")
+			elif(count==93):
+			     count=64
+			     print("you have a snake bite")
+			elif(count==76):
+			     count=97
+			     print("you climb up the ladder")
+			elif(count>100):
+				print("retry") 
+		else:
+		    break		
+
+
+
+
+output:
+
+snake and ladder game
+enter r to roll the dicer
+r value is 1
+score is 1
+enter r to roll the dicer
+r value is 4
+score is 5
+enter r to roll the dicer
+r value is 6
+score is 11
+you have a snake bite
+enter r to roll the dicer
+r value is 4
+score is 6
+enter r to roll the dicer
+r value is 1
+score is 7
+enter r to roll the dicer
+r value is 1
+score is 8
+u climb up the ladder
+enter r to roll the dicer
+r value is 6
+score is 43
+enter r to roll the dicer
+r value is 4
+score is 47
+enter r to roll the dicer
+r value is 4
+score is 51
+enter r to roll the dicer
+r value is 4
+score is 55
+enter r to roll the dicer
+r value is 3
+score is 58
+enter r to roll the dicer
+r value is 3
+score is 61
+enter r to roll the dicer
+r value is 1
+score is 62
+enter r to roll the dicer
+r value is 3
+score is 65
+you have a snake bite
+enter r to roll the dicer
+r value is 1
+score is 47
+enter r to roll the dicer
+r value is 6
+score is 53
+enter r to roll the dicer
+r value is 4
+score is 57
+enter r to roll the dicer
+r value is 4
+score is 61
+enter r to roll the dicer
+r value is 1
+score is 62
+enter r to roll the dicer
+r value is 6
+score is 68
+enter r to roll the dicer
+r value is 4
+score is 72
+enter r to roll the dicer
+r value is 1
+score is 73
+enter r to roll the dicer
+r value is 4
+score is 77
+enter r to roll the dicer
+r value is 6
+score is 83
+enter r to roll the dicer
+r value is 5
+score is 88
+enter r to roll the dicer
+r value is 1
+score is 89
+you have a snake bite
+enter r to roll the dicer
+r value is 6
+score is 76
+you climb up the ladder
+enter r to roll the dicer
+r value is 4
+score is 101
+retry
+dl312@soetcse:~/namratha$ r
+	     
